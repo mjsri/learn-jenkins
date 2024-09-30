@@ -7,7 +7,7 @@ pipeline {
     //     }
     // }
     environment {
-        GREETING = 'Hellow Jenkins'
+        GREETINGS = 'Hellow Jenkins'
     }
     stages {
         stage('Build') {
